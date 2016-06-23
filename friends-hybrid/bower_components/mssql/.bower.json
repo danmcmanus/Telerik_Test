@@ -1,0 +1,14 @@
+{
+  "name": "mssql",
+  "homepage": "https://github.com/patriksimek/node-mssql",
+  "version": "3.3.0",
+  "_release": "3.3.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v3.3.0",
+    "commit": "1893969195045a250f0fdeeb2de7f30dcf6689ad"
+  },
+  "_source": "https://github.com/patriksimek/node-mssql.git",
+  "_target": "3.3.0",
+  "_originalSource": "mssql"
+}

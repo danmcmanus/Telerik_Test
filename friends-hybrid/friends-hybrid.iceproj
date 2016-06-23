@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TypeScriptModuleKind>AMD</TypeScriptModuleKind>
+    <TypeScriptSourceMap>True</TypeScriptSourceMap>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectGuid>{23fee00a-144d-475c-82ec-9fef8072bb34}</ProjectGuid>
+    <ProjectName>friends-hybrid</ProjectName>
+    <ProjectTypeGuids>{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' " />
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' " />
+  <ItemGroup>
+    <Content Include=".abignore" />
+    <Content Include=".abproject" />
+    <Content Include=".debug.abproject" />
+    <Content Include=".release.abproject" />
+    <Content Include="app.js" />
+    <Content Include="bower.json" />
+    <Content Include="bower_components\everlive\.bower.json" />
+    <Content Include="bower_components\everlive\.gitattributes" />
+    <Content Include="bower_components\everlive\bower.json" />
+    <Content Include="bower_components\everlive\min\everlive.all.min.js" />
+    <Content Include="bower_components\everlive\src\everlive.all.js" />
+    <Content Include="bower_components\everlive\src\everlive.all.map" />
+    <Content Include="bower_components\lodash\.bower.json" />
+    <Content Include="bower_components\lodash\.editorconfig" />
+    <Content Include="bower_components\lodash\.gitattributes" />
+    <Content Include="bower_components\lodash\.github\CONTRIBUTING.md" />
+    <Content Include="bower_components\lodash\.gitignore" />
+    <Content Include="bower_components\lodash\.jscsrc" />
+    <Content Include="bower_components\lodash\.travis.yml" />
+    <Content Include="bower_components\lodash\CODE_OF_CONDUCT.md" />
+    <Content Include="bower_components\lodash\dist\lodash.min.js" />
+    <Content Include="bower_components\lodash\LICENSE" />
+    <Content Include="bower_components\lodash\lodash.js" />
+    <Content Include="bower_components\lodash\package.json" />
+    <Content Include="bower_components\lodash\README.md" />
+    <Content Include="bower_components\noty\.bower.json" />
+    <Content Include="bower_components\noty\js\noty\packaged\jquery.noty.packaged.min.js" />
+    <Content Include="common\constants.js" />
+    <Content Include="common\navigation.js" />
+    <Content Include="common\notify.js" />
+    <Content Include="common\settings.js" />
+    <Content Include="common\utils.js" />
+    <Content Include="common\validate.js" />
+    <Content Include="components\activitiesView\addEdit.html" />
+    <Content Include="components\activitiesView\details.html" />
+    <Content Include="components\activitiesView\index.js" />
+    <Content Include="components\activitiesView\view.html" />
+    <Content Include="components\authenticationView\index.js" />
+    <Content Include="components\authenticationView\view.html" />
+    <Content Include="components\commentsView\addEdit.html" />
+    <Content Include="components\commentsView\index.js" />
+    <Content Include="components\commentsView\view.html" />
+    <Content Include="components\emptyView\view.html" />
+    <Content Include="components\missingSettingsView\noappidView.html" />
+    <Content Include="components\profileView\index.js" />
+    <Content Include="components\profileView\view.html" />
+    <Content Include="cordova.android.js" />
+    <Content Include="cordova.ios.js" />
+    <Content Include="cordova.wp8.js" />
+    <Content Include="dataProviders\defaultProvider.js" />
+    <Content Include="index.html" />
+    <Content Include="kendo\js\jquery.min.js" />
+    <Content Include="kendo\js\kendo.mobile.min.js" />
+    <Content Include="kendo\styles\images\back.png" />
+    <Content Include="kendo\styles\images\kendoui.svg" />
+    <Content Include="kendo\styles\images\kendoui.ttf" />
+    <Content Include="kendo\styles\images\kendoui.woff" />
+    <Content Include="kendo\styles\images\wp8_icons.png" />
+    <Content Include="kendo\styles\images\wp8_inverseicons.png" />
+    <Content Include="kendo\styles\kendo.mobile.all.min.css" />
+    <Content Include="styles\img\background-authentication.jpg" />
+    <Content Include="styles\img\default.jpg" />
+    <Content Include="styles\img\icon-add.png" />
+    <Content Include="styles\img\icon-add@2x.png" />
+    <Content Include="styles\img\icon-adsf.png" />
+    <Content Include="styles\img\icon-adsf@2x.png" />
+    <Content Include="styles\img\icon-back-shadow.png" />
+    <Content Include="styles\img\icon-back-shadow@2x.png" />
+    <Content Include="styles\img\icon-back.png" />
+    <Content Include="styles\img\icon-back@2x.png" />
+    <Content Include="styles\img\icon-comments-o.png" />
+    <Content Include="styles\img\icon-comments-o@2x.png" />
+    <Content Include="styles\img\icon-comments.png" />
+    <Content Include="styles\img\icon-comments@2x.png" />
+    <Content Include="styles\img\icon-edit-dark.png" />
+    <Content Include="styles\img\icon-edit-dark@2x.png" />
+    <Content Include="styles\img\icon-edit-shadow.png" />
+    <Content Include="styles\img\icon-edit-shadow@2x.png" />
+    <Content Include="styles\img\icon-edit.png" />
+    <Content Include="styles\img\icon-edit@2x.png" />
+    <Content Include="styles\img\icon-facebook.png" />
+    <Content Include="styles\img\icon-facebook@2x.png" />
+    <Content Include="styles\img\icon-like-o.png" />
+    <Content Include="styles\img\icon-like-o@2x.png" />
+    <Content Include="styles\img\icon-like.png" />
+    <Content Include="styles\img\icon-like@2x.png" />
+    <Content Include="styles\img\icon-menu.png" />
+    <Content Include="styles\img\icon-menu@2x.png" />
+    <Content Include="styles\img\icon-photo.png" />
+    <Content Include="styles\img\icon-photo@2x.png" />
+    <Content Include="styles\img\icon-remove.png" />
+    <Content Include="styles\img\icon-remove@2x.png" />
+    <Content Include="styles\img\icon-save.png" />
+    <Content Include="styles\img\icon-save@2x.png" />
+    <Content Include="styles\img\loading.gif" />
+    <Content Include="styles\img\white.png" />
+    <Content Include="styles\main.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="App_Resources\Android\drawable-hdpi\icon.png" />
+    <Resource Include="App_Resources\Android\drawable-hdpi\splashscreen.png" />
+    <Resource Include="App_Resources\Android\drawable-land-hdpi\splashscreen.png" />
+    <Resource Include="App_Resources\Android\drawable-land-ldpi\splashscreen.png" />
+    <Resource Include="App_Resources\Android\drawable-land-mdpi\splashscreen.png" />
+    <Resource Include="App_Resources\Android\drawable-land-xhdpi\splashscreen.png" />
+    <Resource Include="App_Resources\Android\drawable-land-xxhdpi\splashscreen.png" />
+    <Resource Include="App_Resources\Android\drawable-land-xxxhdpi\splashscreen.png" />
+    <Resource Include="App_Resources\Android\drawable-ldpi\icon.png" />
+    <Resource Include="App_Resources\Android\drawable-ldpi\splashscreen.png" />
+    <Resource Include="App_Resources\Android\drawable-mdpi\icon.png" />
+    <Resource Include="App_Resources\Android\drawable-mdpi\splashscreen.png" />
+    <Resource Include="App_Resources\Android\drawable-xhdpi\icon.png" />
+    <Resource Include="App_Resources\Android\drawable-xhdpi\splashscreen.png" />
+    <Resource Include="App_Resources\Android\drawable-xxhdpi\icon.png" />
+    <Resource Include="App_Resources\Android\drawable-xxhdpi\splashscreen.png" />
+    <Resource Include="App_Resources\Android\drawable-xxxhdpi\icon.png" />
+    <Resource Include="App_Resources\Android\drawable-xxxhdpi\splashscreen.png" />
+    <Resource Include="App_Resources\iOS\Default-568h@2x.png" />
+    <Resource Include="App_Resources\iOS\Default-667h.png" />
+    <Resource Include="App_Resources\iOS\Default-736h.png" />
+    <Resource Include="App_Resources\iOS\Default-Landscape-667h.png" />
+    <Resource Include="App_Resources\iOS\Default-Landscape-736h.png" />
+    <Resource Include="App_Resources\iOS\Default-Landscape.png" />
+    <Resource Include="App_Resources\iOS\Default-Landscape@2x.png" />
+    <Resource Include="App_Resources\iOS\Default-Portrait.png" />
+    <Resource Include="App_Resources\iOS\Default-Portrait@2x.png" />
+    <Resource Include="App_Resources\iOS\Default.png" />
+    <Resource Include="App_Resources\iOS\Default@2x.png" />
+    <Resource Include="App_Resources\iOS\icon-40.png" />
+    <Resource Include="App_Resources\iOS\icon-40@2x.png" />
+    <Resource Include="App_Resources\iOS\Icon-40@3x.png" />
+    <Resource Include="App_Resources\iOS\icon-60.png" />
+    <Resource Include="App_Resources\iOS\icon-60@2x.png" />
+    <Resource Include="App_Resources\iOS\Icon-60@3x.png" />
+    <Resource Include="App_Resources\iOS\icon-72.png" />
+    <Resource Include="App_Resources\iOS\icon-72@2x.png" />
+    <Resource Include="App_Resources\iOS\icon-76.png" />
+    <Resource Include="App_Resources\iOS\icon-76@2x.png" />
+    <Resource Include="App_Resources\iOS\Icon-Small-50.png" />
+    <Resource Include="App_Resources\iOS\Icon-Small-50@2x.png" />
+    <Resource Include="App_Resources\iOS\Icon-Small.png" />
+    <Resource Include="App_Resources\iOS\Icon-Small@2x.png" />
+    <Resource Include="App_Resources\iOS\icon.png" />
+    <Resource Include="App_Resources\iOS\icon@2x.png" />
+    <Resource Include="App_Resources\iOS\watch-172x172.png" />
+    <Resource Include="App_Resources\iOS\watch-196x196.png" />
+    <Resource Include="App_Resources\iOS\watch-48x48.png" />
+    <Resource Include="App_Resources\iOS\watch-55x55.png" />
+    <Resource Include="App_Resources\iOS\watch-58x58.png" />
+    <Resource Include="App_Resources\iOS\watch-80x80.png" />
+    <Resource Include="App_Resources\iOS\watch-87x87.png" />
+    <Resource Include="App_Resources\iOS\watch-88x88.png" />
+    <Resource Include="App_Resources\WP8\ApplicationIcon.png" />
+    <Resource Include="App_Resources\WP8\Assets\BadgeLogo.png" />
+    <Resource Include="App_Resources\WP8\Assets\Logo.png" />
+    <Resource Include="App_Resources\WP8\Assets\SplashScreen.png" />
+    <Resource Include="App_Resources\WP8\Assets\SquareTile150x150.png" />
+    <Resource Include="App_Resources\WP8\Assets\SquareTile71x71.png" />
+    <Resource Include="App_Resources\WP8\Assets\StoreLogo.png" />
+    <Resource Include="App_Resources\WP8\Assets\WideLogo.png" />
+    <Resource Include="App_Resources\WP8\SplashScreenImage.jpg" />
+    <Resource Include="App_Resources\WP8\SplashScreenImage.screen-720p.jpg" />
+    <Resource Include="App_Resources\WP8\SplashScreenImage.screen-WVGA.jpg" />
+    <Resource Include="App_Resources\WP8\Tiles\Iconic\110x110.png" />
+    <Resource Include="App_Resources\WP8\Tiles\Iconic\202x202.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="kendo\typescript\jquery.d.ts" />
+    <TypeScriptCompile Include="kendo\typescript\kendo.mobile.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Resources\" />
+    <Folder Include="App_Resources\Android\" />
+    <Folder Include="App_Resources\Android\drawable-hdpi\" />
+    <Folder Include="App_Resources\Android\drawable-land-hdpi\" />
+    <Folder Include="App_Resources\Android\drawable-land-ldpi\" />
+    <Folder Include="App_Resources\Android\drawable-land-mdpi\" />
+    <Folder Include="App_Resources\Android\drawable-land-xhdpi\" />
+    <Folder Include="App_Resources\Android\drawable-land-xxhdpi\" />
+    <Folder Include="App_Resources\Android\drawable-land-xxxhdpi\" />
+    <Folder Include="App_Resources\Android\drawable-ldpi\" />
+    <Folder Include="App_Resources\Android\drawable-mdpi\" />
+    <Folder Include="App_Resources\Android\drawable-xhdpi\" />
+    <Folder Include="App_Resources\Android\drawable-xxhdpi\" />
+    <Folder Include="App_Resources\Android\drawable-xxxhdpi\" />
+    <Folder Include="App_Resources\iOS\" />
+    <Folder Include="App_Resources\WP8\" />
+    <Folder Include="App_Resources\WP8\Assets\" />
+    <Folder Include="App_Resources\WP8\Tiles\" />
+    <Folder Include="App_Resources\WP8\Tiles\Iconic\" />
+    <Folder Include="bower_components\" />
+    <Folder Include="bower_components\everlive\" />
+    <Folder Include="bower_components\everlive\min\" />
+    <Folder Include="bower_components\everlive\src\" />
+    <Folder Include="bower_components\lodash\" />
+    <Folder Include="bower_components\lodash\.github\" />
+    <Folder Include="bower_components\lodash\dist\" />
+    <Folder Include="bower_components\noty\" />
+    <Folder Include="bower_components\noty\js\" />
+    <Folder Include="bower_components\noty\js\noty\" />
+    <Folder Include="bower_components\noty\js\noty\packaged\" />
+    <Folder Include="common\" />
+    <Folder Include="components\" />
+    <Folder Include="components\activitiesView\" />
+    <Folder Include="components\authenticationView\" />
+    <Folder Include="components\commentsView\" />
+    <Folder Include="components\emptyView\" />
+    <Folder Include="components\missingSettingsView\" />
+    <Folder Include="components\profileView\" />
+    <Folder Include="dataProviders\" />
+    <Folder Include="kendo\" />
+    <Folder Include="kendo\js\" />
+    <Folder Include="kendo\styles\" />
+    <Folder Include="kendo\styles\images\" />
+    <Folder Include="kendo\typescript\" />
+    <Folder Include="Plugins\" />
+    <Folder Include="styles\" />
+    <Folder Include="styles\img\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Import Project="$(IceniumTargets)Build.targets" />
+</Project>
